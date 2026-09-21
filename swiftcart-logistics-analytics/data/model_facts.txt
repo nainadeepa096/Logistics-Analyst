@@ -1,0 +1,19 @@
+n_train=320
+n_test=80
+lin_mae=3.94
+lin_rmse=4.98
+lin_r2=0.907
+lin_cv_mae_mean=4.07
+lin_cv_mae_std=0.16
+rf_mae=4.79
+rf_rmse=6.08
+rf_r2=0.861
+rf_cv_mae_mean=5.04
+rf_cv_mae_std=0.58
+rf_best_params={'model__max_depth': 8, 'model__n_estimators': 200}
+top_coef_1=traffic_index=20.52
+top_coef_2=weather_Snow=13.92
+top_coef_3=weather_Rain=5.84
+top_imp_1=distance_km=0.774
+top_imp_2=traffic_index=0.059
+top_imp_3=weight_kg=0.053
